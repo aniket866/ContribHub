@@ -1,5 +1,6 @@
 import Navbar from "@/components/UI/Navbar";
 import Quote from "@/components/UI/Quote"
+import Cartoon from "@/components/UI/Cartoon";
 // import HeroSection from "@/components/HeroSection";
 // import TrustedPrograms from "@/components/TrustedPrograms";
 // import SearchSection from "@/components/SearchSection";
@@ -20,6 +21,8 @@ export default function Home() {
       <Navbar />
 
       <Quote />
+
+      <Cartoon/>
 
       {/* <TrustedPrograms />
 

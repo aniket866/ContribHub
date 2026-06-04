@@ -1,0 +1,1 @@
+// all contribution phases from start to end a long 10 step with cartoon image and explaination of each step
