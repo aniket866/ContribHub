@@ -7,7 +7,7 @@ const hand = Caveat({
 
 export default function Quote() {
   return (
-    <section className="mx-auto flex max-w-5xl flex-col items-center px-12 pt-5 text-center md:pt-25">
+    <section className="mx-auto flex max-w-5xl flex-col items-center px-12 pt-7 text-center md:pt-30">
       <h1
         className={`${hand.className} max-w-3xl text-5xl leading-none text-zinc-900 md:text-7xl`}
       >

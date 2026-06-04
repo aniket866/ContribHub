@@ -1,18 +1,8 @@
 import Navbar from "@/components/UI/Navbar";
 import Quote from "@/components/UI/Quote"
 import Cartoon from "@/components/UI/Cartoon";
-// import HeroSection from "@/components/HeroSection";
-// import TrustedPrograms from "@/components/TrustedPrograms";
-// import SearchSection from "@/components/SearchSection";
-// import CategoriesSection from "@/components/CategoriesSection";
-// import FeaturedPrograms from "@/components/FeaturedPrograms";
-// import HowItWorks from "@/components/HowItWorks";
-// import ContributorJourney from "@/components/ContributorJourney";
-// import StatisticsSection from "@/components/StatisticsSection";
-// import Testimonials from "@/components/Testimonials";
-// import CommunitySection from "@/components/CommunitySection";
-// import FAQSection from "@/components/FAQSection";
-// import Footer from "@/components/Footer";
+import WhyOpenRank from "@/components/UI/WhyOpenRank";
+import Recruiters from "@/components/UI/Recruiters";
 
 export default function Home() {
   return (
@@ -23,6 +13,10 @@ export default function Home() {
       <Quote />
 
       <Cartoon/>
+
+      <WhyOpenRank/>
+
+      <Recruiters/>
 
       {/* <TrustedPrograms />
 
