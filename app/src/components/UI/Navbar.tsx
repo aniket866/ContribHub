@@ -35,7 +35,7 @@ export default function Navbar() {
       ].map((item) => (
         <Link
           key={item}
-          href={`/${item.toLowerCase()}`}
+          href={`#${item.toLowerCase()}`}
           className="
             group
             relative
