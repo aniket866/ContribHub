@@ -11,14 +11,14 @@ export default function Quote() {
       <h1
         className={`${hand.className} max-w-3xl text-5xl leading-none text-zinc-900 md:text-7xl`}
       >
-        Write, plan, share.
+        Explore, contribute, build.
         <br />
-        With AI at your side.
+        Open source at your fingertips.
       </h1>
 
       <p className="mt-5 max-w-2xl text-sm leading-relaxed text-zinc-600 md:text-lg">
-        Notion is the connected workspace where better,
-        faster work happens.
+        ContribHub is your gateway to discovering meaningful open-source
+        programs, organizations, and beginner-friendly contribution opportunities.
       </p>
     </section>
   );
