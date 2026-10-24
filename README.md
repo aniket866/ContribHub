@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ContribHub
 
-## Getting Started
+> **Discover meaningful open-source contribution opportunities, programs, and community projects.**
 
-First, run the development server:
+ContribHub is a modern open-source contribution platform built to help developers and newcomers discover open-source programs, participating organizations, categories, and beginner-friendly issues.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- **Program Discovery**: Browse top open-source programs and fellowships (e.g. GSoC, LFX, Outreachy, NSoC).
+- **Organization Directory**: Explore active open-source organizations and project ecosystems.
+- **Categorized Opportunities**: Filter issues and projects by language, domain, and experience level.
+- **Contributor Resources**: Guides, tips, and roadmaps to help developers make their first pull request.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) 16 (App Router)
+- **Library**: [React](https://react.dev/) 19
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) v4
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+---
+
+## 📁 Project Structure
+
+```text
+ContribHub/
+├── app/
+│   ├── src/
+│   │   └── components/
+│   │       └── UI/              # Reusable UI components (Navbar, Cards, Button, Quote)
+│   ├── favicon.ico
+│   ├── globals.css              # Global styles and theme definitions
+│   ├── layout.tsx               # Root layout and metadata
+│   └── page.tsx                 # Main landing page
+├── public/                      # Static assets and icons
+├── package.json                 # Scripts and dependencies
+├── tsconfig.json                # TypeScript configuration
+└── README.md                    # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+Ensure you have the following installed on your machine:
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js**: v18.17 or higher
+- **npm**: v9 or higher (or `pnpm` / `yarn`)
+- **Git**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aniket866/ContribHub.git
+   cd ContribHub
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open in browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+---
+
+## 📜 Available Scripts
+
+- `npm run dev`: Starts the Next.js development server.
+- `npm run build`: Compiles and builds the production application.
+- `npm run start`: Runs the built production server.
+- `npm run lint`: Checks code quality and syntax with ESLint.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit issues and pull requests to help improve ContribHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
