@@ -113,6 +113,8 @@ export default function Navbar() {
     {/* Mobile */}
     <button
       onClick={() => setOpen(!open)}
+      aria-label="Toggle navigation menu"
+      aria-expanded={open}
       className="
         rounded-full
         border-2
@@ -124,6 +126,49 @@ export default function Navbar() {
       <Menu size={20} />
     </button>
   </div>
+
+  {/* Mobile Menu Dropdown */}
+  {open && (
+    <div className="mt-2 flex w-[calc(100vw-2rem)] max-w-sm flex-col gap-2 rounded-2xl border-2 border-black bg-white/95 p-4 shadow-[0_12px_40px_rgba(0,0,0,0.15)] backdrop-blur-xl md:hidden">
+      <nav className="flex flex-col gap-1">
+        {[
+          "Programs",
+          "Organizations",
+          "Categories",
+          "Resources",
+          "Community",
+        ].map((item) => (
+          <Link
+            key={item}
+            href={`/${item.toLowerCase()}`}
+            onClick={() => setOpen(false)}
+            className="rounded-lg px-4 py-2 text-sm font-semibold text-zinc-800 transition hover:bg-black hover:text-white"
+          >
+            {item}
+          </Link>
+        ))}
+      </nav>
+
+      <div className="my-1 h-px bg-zinc-200" />
+
+      <div className="flex flex-col gap-2">
+        <button
+          type="button"
+          onClick={() => setOpen(false)}
+          className="w-full rounded-full border-2 border-black px-4 py-2 text-sm font-semibold transition hover:bg-black hover:text-white"
+        >
+          Login
+        </button>
+        <button
+          type="button"
+          onClick={() => setOpen(false)}
+          className="w-full rounded-full bg-black px-4 py-2 text-sm font-semibold text-white transition hover:scale-105"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+  )}
 </header>
   );
 }
