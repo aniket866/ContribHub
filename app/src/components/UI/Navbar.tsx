@@ -18,7 +18,7 @@ export default function Navbar() {
       </div>
 
       <span className="hidden text-sm font-black tracking-tight text-black md:block">
-        ContriHub
+        ContribHub
       </span>
     </Link>
 
